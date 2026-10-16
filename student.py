@@ -4,12 +4,12 @@ def calculate_grade(marks):
         return "A"
         elif marks >= 75:
             return "B" 
-            elif marks >= 60:
-                return "C"
-                elif marks >= 50:
-                    return "D"
-                    else:
-                        return "F"
+        elif marks >= 60:
+            return "C"
+        elif marks >= 50:
+            return "D"
+        else:
+            return "F"
 
 def display_result(name, marks):
     grade = calculate_grade(marks)
